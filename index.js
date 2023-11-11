@@ -8,7 +8,11 @@ app.get("/", (req, res) => {
 
 app.get("/login", (req, res) => {
      res.send("Login");
-   });
+});
+
+app.get("/forgot-password", (req, res) => {
+     res.send("Forgot Password");
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
