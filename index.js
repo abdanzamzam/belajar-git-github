@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.send("Hello, Mario");
 });
 
+app.get("/register", (req, res) => {
+  res.send("Register");
+});
+
 app.get("/login", (req, res) => {
      res.send("Login");
 });
